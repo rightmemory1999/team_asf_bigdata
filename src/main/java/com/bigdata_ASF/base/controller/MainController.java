@@ -14,6 +14,11 @@ public class MainController {
         return "main";
     }
 
+    @GetMapping(value="/index")
+    public String index(){
+        return "index";
+    }
+
     @GetMapping(value="/status_1")
     public String status_1(){
         return "pages/status_1";
