@@ -58,7 +58,7 @@ a:focus {
     height: 100vh;
     z-index: 999;
     background: #ffffff;
-    color: #000000;
+    color: #6c757d;
     transition: all 0.3s;
     overflow-y: scroll;
     box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.2);
@@ -84,7 +84,7 @@ a:focus {
 }
 
 #dismiss:hover {
-    background: #000000;
+    background: #dee2e6;
     color: #ffffff;
 }
 
@@ -126,12 +126,12 @@ a:focus {
 
 #sidebar ul li a:hover {
     color: #ffffff;
-    background: #000000;
+    background: #dee2e6;
 }
 
 #sidebar ul li.active>a,
 a[aria-expanded="true"] {
-    color: #000000;
+    color: #dee2e6;
     background: #ffffff;
 }
 
