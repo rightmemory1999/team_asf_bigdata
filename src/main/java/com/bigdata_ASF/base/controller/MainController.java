@@ -24,8 +24,26 @@ public class MainController {
         return "pages/status_1";
     }
 
+    @GetMapping(value="/status_2")
+    public String status_2(){
+        return "pages/status_2";
+    }
+
+    @GetMapping(value="/status_3")
+    public String status_3(){
+        return "pages/status_3";
+    }
+
+    @GetMapping(value="/status_4")
+    public String status_4(){
+        return "pages/status_4";
+    }
+
     @GetMapping(value="/analysis_1")
     public String analysis_1(){
         return "pages/analysis_1";
     }
+
+    @GetMapping(value="/analysis_2")
+    public String analysis_2() { return "pages/analysis_2"; }
 }
