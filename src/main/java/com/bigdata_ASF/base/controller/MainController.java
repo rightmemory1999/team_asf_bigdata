@@ -39,6 +39,11 @@ public class MainController {
         return "pages/status_4";
     }
 
+    @GetMapping(value="/status_5")
+    public String status_5(){
+        return "pages/status_5";
+    }
+
     @GetMapping(value="/analysis_1")
     public String analysis_1(){
         return "pages/analysis_1";
@@ -46,4 +51,7 @@ public class MainController {
 
     @GetMapping(value="/analysis_2")
     public String analysis_2() { return "pages/analysis_2"; }
+
+    @GetMapping(value="/service_1")
+    public String service_1() { return "pages/service_1"; }
 }
